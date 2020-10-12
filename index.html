@@ -6,11 +6,16 @@
         <title>Bug Tracker System</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">       
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <link rel="stylesheet" href="stylesheet.css">
     </head>
     <body onload="fetchBugs()">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">Bug Tracker <small>by Manoj Kumar</small> </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            </button>
+          </nav>
         <div class="container">
-            <h1>Bug Tracker <small><small><small>by Manoj Kumar</small></small></small></h1>
-            <div class="jumbotron">
+            <div class="jumbotron" >
                 <h3>Add New Bug:</h3>
                 <form id="bugInputForm">
                     <div class="form-group">
