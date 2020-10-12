@@ -6,7 +6,7 @@ function saveBug(e){
     var bugAssignedTo = document.getElementById('bugAssignedToInput').value;
     var bugId = chance.guid();
     var bugStatus = 'Open';
-
+    console.log('Done')
     var bug_obj = {
         id: bugId,
         description: bugDesc,
