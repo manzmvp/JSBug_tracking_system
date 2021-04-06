@@ -1,0 +1,23 @@
+{
+  "name": "JSBug_tracking_system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manzmvp/JSBug_tracking_system.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://manzmvp.github.io/JSBug_tracking_system/issues"
+  },
+  "homepage": "https://github.com/manzmvp/JSBug_tracking_system",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
