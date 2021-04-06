@@ -1,0 +1,28 @@
+body{
+    background-color: #ffbf00;
+}
+/* h1{
+    color: #f5f6f8;
+    font-size: 45px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+} */
+small{
+    font-size: 20px;
+}
+
+.navbar{
+    max-height: 70px;
+    background-color: #c82333;
+    margin-bottom: 40px;
+}
+.navbar .navbar-brand{
+    color: #f5f6f8;
+    font-size: 45px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+}
+.jumbotron{
+    border-style:solid;
+    border-color: black;
+}
